@@ -7,9 +7,9 @@
     - 最后输入ENTER+回车, 重启电脑
   - 指令`node -v` - 检查node环境
   - 指令`npm -v` - 检查npm环境
+  - 指令`npm config set registry https://registry.npmmirror.com` - 设置镜像源
   - 指令`npm install -g npm` - 重新安装npm (初始化)
 - 创建Docusaurus
-  - 指令`npm config set registry https://registry.npmmirror.com` - 设置镜像源
   - 指令`npx create-docusaurus@latest TestProject classic` - 创建工程
     - `TestProject` 为项目名
 - 运行Docusaurus
